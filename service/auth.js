@@ -1,7 +1,7 @@
 // const sessionIdToUserMap = new Map();
 
 const jwt = require("jsonwebtoken");
-const secretKey = "Nishant$#001#";
+const secretKey = "Nishant$#001#"; // must be secure
 
 function setUser(user) {
   const payload = {
